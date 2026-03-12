@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "🚀 Render.com 배포 시작"
+echo ""
+echo "1. https://render.com 접속"
+echo "2. GitHub으로 로그인"
+echo "3. New + → Web Service"
+echo "4. 레포: cmeetsp-jackie/charan-cx-api"
+echo "5. Deploy 클릭"
+echo ""
+echo "배포 URL 받으면 바로 프론트엔드 연결하겠습니다!"
