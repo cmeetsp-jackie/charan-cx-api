@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: charan-cx-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: CHANNELTALK_ACCESS_KEY
+        value: 69b120460b36917dd338
+      - key: CHANNELTALK_ACCESS_SECRET
+        value: c26560906ad5cbbc73901ad4ba99e16b
